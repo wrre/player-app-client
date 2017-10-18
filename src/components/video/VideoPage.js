@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Select from 'react-select';
 import Api from '../../lib/Api';
 import Header from '../header/Header';
+import Selector from '../share/Selector';
 import Video from './Video';
 import './VideoPage.css';
 import 'react-select/dist/react-select.css';
@@ -43,14 +43,15 @@ class VideoPage extends Component {
     return (
       <div className="main-VideoPage page">
         <Header title={this.state.channel.name}/>
-        <Video
-          videoId={this.state.playingVideo}
-        />
-        <Select
+        <Selector
           value={this.state.playingVideo}
           options={this.state.videos}
           onChange={this.handleChange.bind(this)}
         />
+        <Video
+          videoId={this.state.playingVideo}
+        />
+
       </div>
     );
   }
