@@ -1,15 +1,19 @@
-.main-Header {
-  text-align: center;
+.Header-main {
   background-color: #222;
-  height: 60px;
-  padding: 1px;
   color: white;
-  line-height: 20px;
   margin-bottom: 20px;
+  text-align: center;
+  width: 100vw;
 }
 
-.column-left {
+.Header-left {
   float: left;
+  height: 30px;
+  margin: 15px;
+}
+
+.Header-right {
+  float: right;
   height: 30px;
   margin: 15px;
 }
