@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { Popup } from 'semantic-ui-react';
 import user from '../../image/user.svg';
 
@@ -9,7 +10,7 @@ const UserAction = () => (
     hoverable
   >
   <table>
-    <tr>My List</tr>
+    <tr><Link to="/user/list">My List</Link></tr>
   </table>
   </Popup>
 )

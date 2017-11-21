@@ -1,5 +1,6 @@
 import Dnd from './components/Dnd';
 import LandingPage from './components/LandingPage';
+import UserListPage from './components/user/UserListPage';
 import VideoPage from './components/video/VideoPage';
 
 const routes = [
@@ -17,6 +18,11 @@ const routes = [
         path: '/dnd',
         exact: true,
         component: Dnd
+    },
+    {
+        path: '/user/list',
+        exact: true,
+        component: UserListPage
     }
 ]
 
