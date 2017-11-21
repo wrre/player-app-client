@@ -16,7 +16,9 @@
     "react-transform-catch-errors": "^1.0.2",
     "react-transform-hmr": "^1.0.4",
     "react-window-size": "^1.0.1",
-    "redbox-react": "^1.5.0"
+    "redbox-react": "^1.5.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.76.0"
   },
   "scripts": {
     "start": "react-scripts start",
