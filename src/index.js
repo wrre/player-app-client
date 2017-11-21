@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { renderRoutes } from 'react-router-config';
 
 import './index.css';
+import 'semantic-ui-css/semantic.min.css';
+
 import routes from './router.js'
 
 ReactDOM.render((
